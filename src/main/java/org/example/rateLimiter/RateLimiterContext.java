@@ -1,7 +1,11 @@
 package org.example.rateLimiter;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.example.rateLimiter.strategies.RateLimiterStrategy;
 
+@Getter
+@Setter
 class RateLimiterContext {
     private RateLimiterStrategy strategy;
 
